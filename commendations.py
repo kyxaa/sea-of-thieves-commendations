@@ -47,7 +47,7 @@ def tables_to_csv(tables, output_csv):
         print("No valid tables found on the webpage.")
 
 if __name__ == "__main__":
-    url = "https://seaofthieves.fandom.com/wiki/Commendations"
+    url = "https://seaofthieves.wiki.gg/wiki/Commendations"
     output_csv = "combined_tables.csv"
 
     tables = extract_tables(url)
